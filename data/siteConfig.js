@@ -5,7 +5,7 @@ module.exports = {
   twitterUsername: 'wardstinissen',
   githubUsername: 'WardStinissen',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in everything about technology <br />
+  authorDescription: `Developer, passionate about what I do. Always interested in everything about technology and developement. <br />
     In 2013 I started studying applied computer science at Hogeschool PXL.
     In 2016, I started working as a Java software crafter/Consulting at Continuum Consulting. <br />
     I currently work as a backend developer with a great interest in frontend and I mainly work with <strong>Java, Spring</strong> and <strong>Angular</strong>.`,
