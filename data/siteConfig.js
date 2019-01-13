@@ -1,90 +1,109 @@
 module.exports = {
-  siteTitle: 'Francisco Santos',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  siteTitle: 'Ward Stinissen',
+  siteDescription: `Software Developer`,
+  authorName: 'Ward Stinissen',
+  twitterUsername: 'wardstinissen',
+  githubUsername: 'WardStinissen',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Developer, passionate about what I do. Always interested in everything about technology <br />
+    In 2013 I started studying applied computer science at Hogeschool PXL.
+    In 2016, I started working as a Java software crafter/Consulting at Continuum Consulting. <br />
+    I currently work as a backend developer with a great interest in frontend and I mainly work with <strong>Java, Spring</strong> and <strong>Angular</strong>.`,
   skills: [
     {
-      name: 'HTML',
+      name: 'Java',
       level: 70
-    },
-    {
-      name: 'CSS',
+    }, {
+      name: 'Spring / Spring Boot',
       level: 60
-    },
-    {
-      name: 'Javascript',
+    }, {
+      name: 'Angular',
       level: 50
-    },
-    {
-      name: 'NodeJs',
-      level: 40
-    },
-    {
-      name: 'React',
-      level: 60
-    },
-    {
+    }, {
       name: 'Git',
       level: 70
-    }
+    },
+    
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: "Continuum Consulting NV",
       begin: {
-        month: 'apr',
-        year: '2018'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
+        month: 'aug',
         year: '2016'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+      duration: null,
+      occupation: "Java Software Crafter",
+      description: "I work as a consultant on multiple projects for different customers. I mostly do Java development but also help out in the frontend (Angular)."
+  
     }, {
-      company: "Anapro",
+      company: "Ravago",
       begin: {
-        month: 'set',
-        year: '2012'
+        month: 'jun',
+        year: '2017'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '3 months',
+      occupation: "Software developer",
+      description: "Development and maintenance of a self written ERP system that is used world wide by all the companies in the Ravago group. Externalized document generation to lower the load on the system. Created an smart search application to search information on companies. Technologies: Java 7, Java 8, Spring, Spring Boot 1+2, Angular, Selenium, JBoss, Kubernetes, Docker, Mockito, DB2, Cassandra, Lucene plugin, Intellij, Confluence, Jira, Git, Bamboo, JSP, Scrum/Agile, ActiveMQ, IBMMQ"
+    }, {
+      company: "Axygest",
+      begin: {
+        month: 'sep',
+        year: '2016'
+      },
+      duration: '11 months',
+      occupation: "Software developer",
+      description: "Frontend and backend developement of an admin pannel for an organisation who manages payments of Taxi companies. Technologies: Java 8, Spring boot, AngularJS, Jenkins"
+  
+    }, {
+      company: "J&J",
+      begin: {
+        month: 'apr',
+        year: '2017'
+      },
+      duration: '3 months',
+      occupation: "Software developer",
+      description: "Development and maintenance of multiple applications. Technologies: Java 8, Spring boot, AngularJS"
+    }, {
+      company: "Continuum Consulting NV",
+      begin: {
+        month: 'sep',
+        year: '2013'
+      },
+      duration: '5 months',
+      occupation: "Internship",
+      description: "Worked as an intern. Did research on an internal API and how to expose parts of it externally."
+  
+    }, {
+      company: "Hogeschool PXL",
+      begin: {
+        month: 'feb',
+        year: '2016'
+      },
+      duration: '3 years',
+      occupation: "Applied computer science",
+      description: "Specialization: Software Management"
   
     },
-    /* ... */
+    /*... */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/wardstinissen",
+    linkedin: "https://www.linkedin.com/in/wardstinissen",
+    github: "https://github.com/WardStinissen",
+    email: "ward.stinissen@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteUrl: 'https://wardstinissen.github.io/gatsbystarter-cv',
+  pathPrefix: '/website-ward-stinissen', // Note: it must *not* have a trailing slash.
+  siteCover: '/images/laptop-close.jpg',
   googleAnalyticsId: 'UA-131359385-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'static/images/avatar.jpeg',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Ward Stinissen',
       url: '/',
     }
   ]
