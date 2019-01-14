@@ -5,10 +5,7 @@ module.exports = {
   twitterUsername: 'wardstinissen',
   githubUsername: 'WardStinissen',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in everything about technology and developement. <br />
-    In 2013 I started studying applied computer science at Hogeschool PXL.
-    In 2016, I started working as a Java software crafter/Consulting at Continuum Consulting. <br />
-    I currently work as a backend developer with a great interest in frontend and I mainly work with <strong>Java, Spring</strong> and <strong>Angular</strong>.`,
+  authorDescription: `Developer, passionate about what I do. Always interested in everything about technology and developement. <br />In 2013 I started studying applied computer science at Hogeschool PXL.<br />In 2016, I started working as a Java software crafter/Consulting at Continuum Consulting.<br />I currently work as a backend developer with a great interest in frontend and I mainly work with <strong>Java, Spring</strong> and <strong>Angular</strong>.`,
   skills: [
     {
       name: 'Java',
@@ -27,24 +24,23 @@ module.exports = {
   ],
   jobs: [
     {
-      company: "Continuum Consulting NV",
-      begin: {
-        month: 'aug',
-        year: '2016'
-      },
-      duration: null,
-      occupation: "Java Software Crafter",
-      description: "I work as a consultant on multiple projects for different customers. I mostly do Java development but also help out in the frontend (Angular)."
-  
-    }, {
       company: "Ravago",
       begin: {
         month: 'jun',
         year: '2017'
       },
-      duration: '3 months',
+      duration: null,
       occupation: "Software developer",
       description: "Development and maintenance of a self written ERP system that is used world wide by all the companies in the Ravago group. Externalized document generation to lower the load on the system. Created an smart search application to search information on companies. Technologies: Java 7, Java 8, Spring, Spring Boot 1+2, Angular, Selenium, JBoss, Kubernetes, Docker, Mockito, DB2, Cassandra, Lucene plugin, Intellij, Confluence, Jira, Git, Bamboo, JSP, Scrum/Agile, ActiveMQ, IBMMQ"
+    },  {
+      company: "J&J",
+      begin: {
+        month: 'apr',
+        year: '2017'
+      },
+      duration: '3 months',
+      occupation: "Software developer",
+      description: "Development and maintenance of multiple applications. Technologies: Java 8, Spring boot, AngularJS"
     }, {
       company: "Axygest",
       begin: {
@@ -56,19 +52,20 @@ module.exports = {
       description: "Frontend and backend developement of an admin pannel for an organisation who manages payments of Taxi companies. Technologies: Java 8, Spring boot, AngularJS, Jenkins"
   
     }, {
-      company: "J&J",
+      company: "Continuum Consulting NV",
       begin: {
-        month: 'apr',
-        year: '2017'
+        month: 'aug',
+        year: '2016'
       },
-      duration: '3 months',
-      occupation: "Software developer",
-      description: "Development and maintenance of multiple applications. Technologies: Java 8, Spring boot, AngularJS"
+      duration: null,
+      occupation: "Java Software Crafter",
+      description: "I work as a consultant on multiple projects for different customers. I mostly do Java development but also help out in the frontend (Angular)."
+  
     }, {
       company: "Continuum Consulting NV",
       begin: {
-        month: 'sep',
-        year: '2013'
+        month: 'feb',
+        year: '2016'
       },
       duration: '5 months',
       occupation: "Internship",
@@ -77,15 +74,14 @@ module.exports = {
     }, {
       company: "Hogeschool PXL",
       begin: {
-        month: 'feb',
-        year: '2016'
+        month: 'sept',
+        year: '2013'
       },
       duration: '3 years',
       occupation: "Applied computer science",
       description: "Specialization: Software Management"
   
     },
-    /*... */
   ],
   social: {
     twitter: "https://twitter.com/wardstinissen",
@@ -93,7 +89,7 @@ module.exports = {
     github: "https://github.com/WardStinissen",
     email: "ward.stinissen@gmail.com"
   },
-  siteUrl: 'https://wardstinissen.github.io/gatsbystarter-cv',
+  siteUrl: 'https://wardstinissen.be',
   pathPrefix: '/website-ward-stinissen', // Note: it must *not* have a trailing slash.
   siteCover: '/images/laptop-close.jpg',
   googleAnalyticsId: 'UA-131359385-1',
