@@ -92,7 +92,7 @@ module.exports = {
   siteUrl: 'https://wardstinissen.be',
   pathPrefix: '/website-ward-stinissen', // Note: it must *not* have a trailing slash.
   siteCover: '/images/laptop-close.jpg',
-  googleAnalyticsId: 'UA-131359385-1',
+  googleAnalyticsId: 'UA-132465470-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
