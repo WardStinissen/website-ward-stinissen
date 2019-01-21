@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Ward Stinissen',
-  siteDescription: `Software Developer`,
+  siteDescription: `Ward Stinissen Software Developer`,
   authorName: 'Ward Stinissen',
   twitterUsername: 'wardstinissen',
   githubUsername: 'WardStinissen',
