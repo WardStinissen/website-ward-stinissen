@@ -5,6 +5,7 @@ module.exports = {
     title: config.siteTitle,
     description: config.siteDescription,
     author: config.authorName,
+    siteUrl: `https://www.example.com`,
     ...config
   },
   pathPrefix: config.pathPrefix,
@@ -31,6 +32,7 @@ module.exports = {
         trackingId: config.googleAnalyticsId,
       },
     },
+    `gatsby-plugin-sitemap`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
