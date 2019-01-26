@@ -17,6 +17,15 @@ module.exports = {
       name: 'Angular',
       level: 50
     }, {
+      name: 'JavaScript',
+      level: 50
+    }, {
+      name: 'HTML',
+      level: 60
+    }, {
+      name: 'CSS',
+      level: 50
+    }, {
       name: 'Git',
       level: 70
     },
