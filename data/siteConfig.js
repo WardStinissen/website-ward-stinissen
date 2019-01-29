@@ -17,15 +17,6 @@ module.exports = {
       name: 'Angular',
       level: 50
     }, {
-      name: 'JavaScript',
-      level: 50
-    }, {
-      name: 'HTML',
-      level: 60
-    }, {
-      name: 'CSS',
-      level: 50
-    }, {
       name: 'Git',
       level: 70
     },
@@ -96,7 +87,7 @@ module.exports = {
     twitter: "https://twitter.com/wardstinissen",
     linkedin: "https://www.linkedin.com/in/wardstinissen",
     github: "https://github.com/WardStinissen",
-    email: "ward.stinissen@gmail.com"
+    email: "website@wardstinissen.be"
   },
   siteUrl: 'https://wardstinissen.be',
   pathPrefix: '/website-ward-stinissen', // Note: it must *not* have a trailing slash.
