@@ -20,7 +20,6 @@ module.exports = {
       name: 'Git',
       level: 70
     },
-    
   ],
   jobs: [
     {
@@ -31,7 +30,7 @@ module.exports = {
       },
       duration: null,
       occupation: "Software developer",
-      description: "Development and maintenance of a self written ERP system that is used world wide by all the companies in the Ravago group. Externalized document generation to lower the load on the system. Created an smart search application to search information on companies. Technologies: Java 7, Java 8, Spring, Spring Boot 1+2, Angular, Selenium, JBoss, Kubernetes, Docker, Mockito, DB2, Cassandra, Lucene plugin, Intellij, Confluence, Jira, Git, Bamboo, JSP, Scrum/Agile, ActiveMQ, IBMMQ"
+      description: "Development and maintenance of a self written ERP system that is used world wide by all the companies in the Ravago group. Externalized document generation to lower the load on the system. Created a smart search application to search information on companies. Technologies: Java 7, Java 8, Spring, Spring Boot 1+2, Angular, Selenium, JBoss, Kubernetes, Docker, Mockito, DB2, Cassandra, Lucene plugin, Intellij, Confluence, Jira, Git, Bamboo, JSP, Scrum/Agile, ActiveMQ, IBMMQ"
     },  {
       company: "J&J",
       begin: {
@@ -74,7 +73,7 @@ module.exports = {
     }, {
       company: "Hogeschool PXL",
       begin: {
-        month: 'sept',
+        month: 'sep',
         year: '2013'
       },
       duration: '3 years',
