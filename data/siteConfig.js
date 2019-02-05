@@ -95,7 +95,7 @@ module.exports = {
     twitter: "https://twitter.com/wardstinissen",
     linkedin: "https://www.linkedin.com/in/wardstinissen",
     github: "https://github.com/WardStinissen",
-    email: "website@wardstinissen.be"
+    email: "ward.stinissen+website@gmail.com"
   },
   siteUrl: 'https://wardstinissen.be',
   pathPrefix: '/website-ward-stinissen', // Note: it must *not* have a trailing slash.
