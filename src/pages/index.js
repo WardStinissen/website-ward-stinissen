@@ -39,7 +39,7 @@ class Home extends React.Component {
               <Col xs={4} className='avatar'>
                 <img
                   className='avatar__image'
-                  src='/images/avatar.jpeg'
+                  src='/images/avatar.jpg'
                   alt='user avatar'
                 />
                 <div className="social">
@@ -85,13 +85,13 @@ export default styled(Home)`
 
   .avatar {
     align-items: center;
-  margin-bottom: 24px;
+    margin-bottom: 24px;
   }
 
   .avatar__image {
     box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
     max-width: 200px;
-    border-radius: 100px;
+    border-radius: 25px;
     margin: 0 auto 24px;
   }
 

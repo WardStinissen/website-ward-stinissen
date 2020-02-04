@@ -4,7 +4,7 @@ module.exports = {
   authorName: 'Ward Stinissen',
   twitterUsername: 'wardstinissen',
   githubUsername: 'WardStinissen',
-  authorAvatar: '/images/avatar.jpeg',
+  authorAvatar: '/images/avatar.jpg',
   authorDescription: `Developer, passionate about what I do. Always interested in everything about technology and developement. <br />In 2013 I started studying applied computer science at Hogeschool PXL.<br />In 2016, I started working as a Java software crafter/Consulting at Continuum Consulting.<br />I currently work as a backend developer with a great interest in frontend and I mainly work with <strong>Java, Spring</strong> and <strong>Angular</strong>.`,
   skills: [
     {
@@ -14,7 +14,7 @@ module.exports = {
       name: 'Spring / Spring Boot',
       level: 60
     }, {
-      name: 'Angular',
+      name: 'Golang',
       level: 50
     }, {	
       name: 'JavaScript',	
@@ -26,18 +26,31 @@ module.exports = {
       name: 'CSS',	
       level: 50
     }, {
+      name: 'Angular',
+      level: 60
+    }, {
       name: 'Git',
       level: 70
     },
   ],
   jobs: [
     {
+      company: "Nexuzhealth",
+      begin: {
+        month: 'jul',
+        year: '2019'
+      },
+      duration: null,
+      occupation: "Software developer",
+      description: "Frontend and backend development of a elektronic medical file focussing on general practicioners and homenursing. Technologies: Golang, Angular, Google Cloud Spanner, gRPC, Scrum, Agile"
+    },
+    {
       company: "Ravago",
       begin: {
         month: 'jun',
         year: '2017'
       },
-      duration: null,
+      duration: '2 year and 2 months',
       occupation: "Software developer",
       description: "Development and maintenance of a self written ERP system that is used world wide by all the companies in the Ravago group. Externalized document generation to lower the load on the system. Created a smart search application to search information on companies. Technologies: Java 7, Java 8, Spring, Spring Boot 1+2, Angular, Selenium, JBoss, Kubernetes, Docker, Mockito, DB2, Cassandra, Lucene plugin, Intellij, Confluence, Jira, Git, Bamboo, JSP, Scrum/Agile, ActiveMQ, IBMMQ"
     },  {
@@ -104,7 +117,7 @@ module.exports = {
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'static/images/avatar.jpeg',
+  icon: 'static/images/avatar.jpg',
   headerLinks: [
     {
       label: 'Ward Stinissen',
